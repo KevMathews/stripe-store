@@ -7,7 +7,7 @@ const MainSection = ({ history }) => {
     <div className='main-section-container'>
       <div className='main-section-middle'>
         <div className='ms-m-image'>
-          <img src={studioBag} alt-='studio bag' />
+          <img src={studioBag} alt='studio bag' />
         </div>
         <div className='ms-m-description'>
           <h2>Designed for fashion. Crafted for sport.</h2>

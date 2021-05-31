@@ -19,5 +19,4 @@ const FeaturedCollection = () => {
     </div>
   );
 }
-
 export default FeaturedCollection;

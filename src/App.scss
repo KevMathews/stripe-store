@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-// Import only what you need from Bulma
 @import '../node_modules/bulma/sass/utilities/_all.sass';
 @import '../node_modules/bulma/sass/elements/button.sass';
 @import '../node_modules/bulma/sass/elements/container.sass';
@@ -76,14 +75,11 @@ img {
   margin-bottom: 10px;
   min-height: 44px;
 }
-
-//input styles
 .nomad-input {
   width: 100%;
   padding: 10px;
   margin-bottom: 1rem;
 }
-
 form {
   padding: 2rem;
   text-align: center;
@@ -92,17 +88,14 @@ form {
   input[type=password]{
     width: 60%;
   }
-
   .submit-btn {
     display: flex;
     justify-content: center;
   }
-
   .submit {
     width: 200px;
   }
 }
-
 .form-error {
   border: 1px solid red;
 }
