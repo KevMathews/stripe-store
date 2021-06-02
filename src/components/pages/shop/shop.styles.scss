@@ -1,13 +1,14 @@
 .product-list-container {
   margin: 3rem 0;
-    .product-list-title {
-      margin-top: 5rem;
-      text-align: center;
-    }
+  .product-list-title {
+    margin-top: 5rem;
+    text-align: center;
+  }
+
   .product-list {
-  div {
-    margin: 1rem;
-    cursor: pointer;
+    div {
+      margin: 1rem;
+      cursor: pointer;
     }
   }
 }
@@ -20,9 +21,9 @@
       justify-content: center;
       align-items: center;
       margin: 0 5rem;
-        div {
-          flex: 0 0 300px;
-        }
+      div {
+        flex: 0 0 300px;
+      }
     }
   }
 }

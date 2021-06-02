@@ -1,8 +1,10 @@
 .hero-image {
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-  url('../../assets/ben-white-unsplash.jpeg') center/cover no-repeat;
-  // background: url('../../assets/ben-white-unsplash.jpeg') center/cover no-repeat;
+  url('../../assets/splash.jpeg') center/cover no-repeat;
+  min-height: 95vh;
+  max-height: 95vh;
 }
+
 .hero-title {
   text-align: center;
   font-size: 2rem;
