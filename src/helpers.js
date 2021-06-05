@@ -2,8 +2,8 @@ export const isInCart = (product, cartItems) => {
   return cartItems.find(item => item.id === product.id);
 }
 
-// const API = 'https://mystore.kevmathews.com'
-const API ='http://localhost:8080'
+const API = 'https://mystoreserver.herokuapp.com'
+// const API ='http://localhost:8080'
 
 export async function fetchFromApi(endpoint, opts) {
   const { method, body } = { method: 'POST', body: null, ...opts };

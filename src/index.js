@@ -17,7 +17,7 @@ ReactDOM.render(
         <Elements stripe={stripePromise}>
           <App />
         </Elements>
-=     </CartContextProvider>
+      </CartContextProvider>
     </ProductsContextProvider>
   </BrowserRouter>,
  

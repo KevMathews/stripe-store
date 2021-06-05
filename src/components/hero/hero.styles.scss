@@ -1,21 +1,27 @@
 .hero-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-  url('../../assets/splash.jpeg') center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+  url('../../assets/splash2.jpeg') center/cover no-repeat;
   min-height: 95vh;
   max-height: 95vh;
 }
 
 .hero-title {
+  margin-top: 50%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 @media(min-width: 1024px) {
   .hero-image {
     font-size: 2.5rem;
   }
+  .hero-title {
+    margin-top: 5%;
+    font-size: 2.8rem;
+  }
 }
 
 .shop-now-btn {
   text-align: center;
+  font-size: 3.8rem;
 }

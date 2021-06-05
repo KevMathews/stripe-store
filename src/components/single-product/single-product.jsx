@@ -28,6 +28,9 @@ const SingleProduct = ({ match, history: { push } }) => {
       <div className='single-product-container'>
         <div className='product-image'>
           <img src={imageUrl} alt='product' />
+          {
+            console.log(imageUrl)
+          }
         </div>
         <div className='product-details'>
           <div className='name-price'>
