@@ -3,6 +3,7 @@ export const isInCart = (product, cartItems) => {
 }
 
 const API = 'https://mystoreserver.herokuapp.com'
+// const API = 'https://mystore.kevmathews.com'
 // const API ='http://localhost:8080'
 
 export async function fetchFromApi(endpoint, opts) {
